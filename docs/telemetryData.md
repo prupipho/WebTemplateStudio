@@ -2,19 +2,36 @@
 
 As new features and pages roll out, percentages  will adjust.
 
-Error to process Frontend Frameworks table.
-Entry data: Forbidden.
-Exception: Unexpected character encountered while parsing value: F. Path '', line 0, position 0..
+### Frontend Frameworks
 
-Error to process Backend Frameworks table.
-Entry data: Forbidden.
-Exception: Unexpected character encountered while parsing value: F. Path '', line 0, position 0..
+|Framework Type|Percentage|
+|:---|:---:|
+|React|67.7%|
+|Vue|22.2%|
+|Angular|10.1%|
 
-Error to process Pages table.
-Entry data: Forbidden.
-Exception: Unexpected character encountered while parsing value: F. Path '', line 0, position 0..
+### Backend Frameworks
 
-Error to process Services table.
-Entry data: Forbidden.
-Exception: Unexpected character encountered while parsing value: F. Path '', line 0, position 0..
+|Framework Type|Percentage|
+|:---|:---:|
+|Node|61.9%|
+|AspNet|19.4%|
+|Flask|14.5%|
+|Moleculer|4.2%|
+
+### Pages
+
+|Pages|Percentage|
+|:---|:---:|
+|Blank|44%|
+|Grid|20.1%|
+|Master Detail|19%|
+|List|16.8%|
+
+### Services
+
+|Services|Percentage|
+|:---|:---:|
+|Cosmos DB|55.2%|
+|App Service|44.8%|
 
