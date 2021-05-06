@@ -2,7 +2,7 @@
 # Change the line endings of a text file to: Windows (CR/LF), MacOS/Unix (LF) or Classic Mac (CR)
 # TODO: TOTRY: add last line if not exists
 # Requires PowerShell 3.0 or greater:
-#Requires –Version 3
+#Requires ï¿½Version 3
 
 # Syntax
 #     ./set-eol.ps1 -lineEnding {mac|unix|win} -file FullFilename
@@ -16,7 +16,7 @@
 [CmdletBinding()]
 Param(
   [Parameter(Mandatory=$True,Position=1)]
-    [ValidateSet("mac","unix","win")] 
+    [ValidateSet("mac","unix","win")]
     [string]$lineEnding,
   [Parameter(Mandatory=$True)]
     [string]$file
@@ -27,9 +27,11 @@ Switch ($lineEnding) {
   "mac"  { $eol="`r" }
   "unix" { $eol="`n" }
   "win"  { $eol="`r`n" }
-} 
+}
 
 # Replace CR+LF with LF
+# TODO we should keep original encoding too: utf8 with BOM
+# TODO use existing script from WinTS: Set-All-Text-File-Template-Encodings.ps1
 $text = [IO.File]::ReadAllText($file) -replace "`r`n", "`n"
 [IO.File]::WriteAllText($file, $text)
 
