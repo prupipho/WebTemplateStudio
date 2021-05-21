@@ -2,6 +2,15 @@
 
 As new features and pages roll out, percentages  will adjust.
 
+Error to process Category table.
+Entry data: .
+Exception: Value cannot be null. (Parameter 's').
+
+### Project Generation by category
+
+<details>
+<summary>Uwp Project Generation</summary>
+
 ### Frontend Frameworks
 
 |Framework Type|Percentage|
@@ -28,10 +37,26 @@ As new features and pages roll out, percentages  will adjust.
 |Master Detail|19%|
 |List|16.8%|
 
-### Services
 
-|Services|Percentage|
+</details>
+
+<details>
+<summary>Wpf Project Generation</summary>
+
+### Project Types
+
+|Framework Type|Percentage|
 |:---|:---:|
-|Cosmos DB|55.2%|
-|App Service|44.8%|
+|Tabbed|100%|
+
+### Pages
+
+|Pages|Percentage|
+|:---|:---:|
+|Blank|50%|
+|Settings|33.3%|
+|MasterDetail|16.7%|
+
+
+</details>
 
