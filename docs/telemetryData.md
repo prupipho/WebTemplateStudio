@@ -2,14 +2,17 @@
 
 As new features and pages roll out, percentages  will adjust.
 
-Error to process Category table.
-Entry data: .
-Exception: Value cannot be null. (Parameter 's').
+### Category
+
+|Type|Percentage|
+|:---|:---:|
+|Web|99.7%|
+|RN|0.3%|
 
 ### Project Generation by category
 
 <details>
-<summary>Uwp Project Generation</summary>
+<summary>Web Full Stack Generation</summary>
 
 ### Frontend Frameworks
 
@@ -41,7 +44,7 @@ Exception: Value cannot be null. (Parameter 's').
 </details>
 
 <details>
-<summary>Wpf Project Generation</summary>
+<summary>React Native Generation</summary>
 
 ### Project Types
 
