@@ -28,12 +28,13 @@
     tslib "^1.10.0"
 
 "@azure/arm-resources@^4.0.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@azure/arm-resources/-/arm-resources-4.1.0.tgz#1a46b34cf143817a9626ed19de7b1025c2ec6877"
-  integrity sha512-6J6fAa1BuoBzhYjeeDZnUkdSSLGHBRJ7Mag2jVkMnpW9c3+1Fuekf8Pz4S5ZRQzIT/EvQhx4msyORLsCziFMig==
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@azure/arm-resources/-/arm-resources-4.2.0.tgz#ea060b09d4b7bc11df9c37d30fabf2ae54907ed1"
+  integrity sha512-FRrLsEQCJizD4TAhqaliWp+nulTtspK/ccUpvW7j+95TCqKLZ8O8lkVjUcaW99gTUKkhC5tMgsWZLuX+iKNwDA==
   dependencies:
-    "@azure/ms-rest-azure-js" "^2.0.1"
-    "@azure/ms-rest-js" "^2.0.4"
+    "@azure/core-auth" "^1.1.4"
+    "@azure/ms-rest-azure-js" "^2.1.0"
+    "@azure/ms-rest-js" "^2.2.0"
     tslib "^1.10.0"
 
 "@azure/arm-subscriptions@^3.0.0":
@@ -58,7 +59,7 @@
   resolved "https://registry.yarnpkg.com/@azure/ms-rest-azure-env/-/ms-rest-azure-env-2.0.0.tgz#45809f89763a480924e21d3c620cd40866771625"
   integrity sha512-dG76W7ElfLi+fbTjnZVGj+M9e0BIEJmRxU6fHaUQ12bZBe8EJKYb2GV50YWNaP2uJiVQ5+7nXEVj1VN1UQtaEw==
 
-"@azure/ms-rest-azure-js@^2.0.1":
+"@azure/ms-rest-azure-js@^2.0.1", "@azure/ms-rest-azure-js@^2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@azure/ms-rest-azure-js/-/ms-rest-azure-js-2.1.0.tgz#8c90b31468aeca3146b06c7144b386fd4827f64c"
   integrity sha512-CjZjB8apvXl5h97Ck6SbeeCmU0sk56YPozPtTyGudPp1RGoHXNjFNtoOvwOG76EdpmMpxbK10DqcygI16Lu60Q==
@@ -68,9 +69,9 @@
     tslib "^1.10.0"
 
 "@azure/ms-rest-js@^2.0.4", "@azure/ms-rest-js@^2.2.0", "@azure/ms-rest-js@^2.4.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@azure/ms-rest-js/-/ms-rest-js-2.5.0.tgz#a998ce3822e16528841e8ba9a7bd649a07ade461"
-  integrity sha512-mXezdECH1Vjr+7FkH5+LlL85/YEHOrXHYqd9qh8b6dgvvE7sVvUk3qrtRGk3WZr4TLrZvRLE7NbFU7RgHHg45Q==
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@azure/ms-rest-js/-/ms-rest-js-2.5.1.tgz#a876499d639096ffdf6c14d019effed1991934a0"
+  integrity sha512-2McxhuZy1PRcAsX8PFRD6ELJg1Hr2a1vGvUjcWqVGcfej6MeXplC0P9GzJfNh739fNtzyq0F6ps657o+nVHJpg==
   dependencies:
     "@azure/core-auth" "^1.1.4"
     abort-controller "^3.0.0"
@@ -98,17 +99,17 @@
   dependencies:
     "@babel/highlight" "^7.10.4"
 
-"@babel/helper-validator-identifier@^7.14.0":
-  version "7.14.0"
-  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.14.0.tgz#d26cad8a47c65286b15df1547319a5d0bcf27288"
-  integrity sha512-V3ts7zMSu5lfiwWDVWzRDGIN+lnCEUdaXgtVHJgLb1rGaA6jMrtB9EmE7L18foXJIE8Un/A/h6NJfGQp/e1J4A==
+"@babel/helper-validator-identifier@^7.14.5":
+  version "7.14.5"
+  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.14.5.tgz#d0f0e277c512e0c938277faa85a3968c9a44c0e8"
+  integrity sha512-5lsetuxCLilmVGyiLEfoHBRX8UCFD+1m2x3Rj97WrW3V7H3u4RWRXA4evMjImCsin2J2YT0QaVDGf+z8ondbAg==
 
 "@babel/highlight@^7.10.4":
-  version "7.14.0"
-  resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.14.0.tgz#3197e375711ef6bf834e67d0daec88e4f46113cf"
-  integrity sha512-YSCOwxvTYEIMSGaBQb5kDDsCopDdiUGsqpatp3fOlI4+2HQSkTmEVWnVuySdAC5EWCqSWWTv0ib63RjR7dTBdg==
+  version "7.14.5"
+  resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.14.5.tgz#6861a52f03966405001f6aa534a01a24d99e8cd9"
+  integrity sha512-qf9u2WFWVV0MppaL877j2dBtQIDgmidgjGk5VIMw3OadXvYaXn66U1BFlH2t4+t3i+8PhedppRv+i40ABzd+gg==
   dependencies:
-    "@babel/helper-validator-identifier" "^7.14.0"
+    "@babel/helper-validator-identifier" "^7.14.5"
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
@@ -288,9 +289,9 @@
     source-map "^0.6.1"
 
 "@types/vscode@^1.38":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@types/vscode/-/vscode-1.56.0.tgz#2a75ee6d66e529295648b0b6ee43824564ed9c1a"
-  integrity sha512-Q5VmQxOx+L1Y6lIJiGcJzwcyV3pQo/eiW8P+7sNLhFI16tJCwtua2DLjHRcpjbCLNVYpQM73kzfFo1Z0HyP9eQ==
+  version "1.57.0"
+  resolved "https://registry.yarnpkg.com/@types/vscode/-/vscode-1.57.0.tgz#cc648e0573b92f725cd1baf2621f8da9f8bc689f"
+  integrity sha512-FeznBFtIDCWRluojTsi9c3LLcCHOXP5etQfBK42+ixo1CoEAchkw39tuui9zomjZuKfUVL33KZUDIwHZ/xvOkQ==
 
 "@types/webpack-sources@*":
   version "2.1.0"
@@ -5193,9 +5194,9 @@ tslib@^1.10.0, tslib@^1.8.1:
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
 tslib@^2.0.0, tslib@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
-  integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
+  integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
 
 tsutils@^3.21.0:
   version "3.21.0"
